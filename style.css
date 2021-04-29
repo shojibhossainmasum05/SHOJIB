@@ -1,0 +1,331 @@
+/*Start Framework*/
+
+/* ========================= */
+/*       BASIC SETUP         */
+/* ========================= */
+*{
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html{
+
+    font-size: 62.5%;  /* 10px */
+    scroll-behavior: smooth;
+}
+a, a:hover{
+
+    list-style-type: none;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p{
+
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    
+    font-size: 1.6rem;
+}
+ul li {
+
+    list-style-type: none;
+}
+  Google-Font{
+
+    font-family: 'Metal Mania', cursive;
+    font-family: 'Sriracha', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+  /*==========================================================
+      START HEADER SECTION:-
+  ============================================================*/
+  
+.conteinar{
+
+    height: 100%;
+}
+#bg{
+
+    background-image: url("/images/background/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover top;
+
+}
+.header-text{
+
+    margin-top: 10rem;
+    margin-left: 11rem;
+    width: 50rem;
+}
+.header-text .header-hadeing{
+
+    font-family: 'Metal Mania', cursive;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    letter-spacing: .3rem;
+}
+.header-text .header-hadeing span{
+
+    color: #00e5ff;
+    text-shadow: .2rem .3rem #000000;
+    font-weight: bold;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: .4rem;
+}
+.header-text .header-title{
+
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: .8rem;
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Sriracha', cursive;
+    letter-spacing: .1rem;
+}
+.header-text .header-paragraph{
+
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-align: justify;
+}
+/* .button{
+
+    background-image: linear-gradient( 40deg, #00d3ff, #12d5f3);
+    width: 11rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    color: black;
+    cursor: pointer;
+    font-size: 1.4rem;
+    border: none;
+    font-family: 'Sriracha', cursive;
+    transition: all .2s ease-in-out;
+} */
+/* .button:hover{
+
+    background-image: linear-gradient( 40deg, #0f0f0ff1,#0c0b0bf1);
+    color: #00d3ff;
+    transform: scale(1.1);
+} */
+.header-images{
+
+    height: 52rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+  /*==========================================================
+      Padding Section:-
+  ============================================================*/
+#bg-two{
+
+    background-image: url("/images/background/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 2rem;
+
+}
+.section-images{
+
+    height: 52rem;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+.section-text{
+
+    
+}
+.section-paragraph{
+
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-align: justify;
+    width: 42rem;
+}
+  /*==========================================================
+      button:-
+  ============================================================*/
+  
+  .btn1 button, .btn2 button{
+    position: relative;
+    margin-top: 1rem;
+    border: none;
+    background: #222;
+    padding: 12px 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Sriracha', cursive;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    overflow: hidden;
+    border-radius: .7rem;
+  }
+  button:hover{
+    box-shadow: 0 5px 30px rgba(0,0,0,.2);
+  }
+  .btn1 button:after,
+  .btn2 button:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 470%;
+    width: 140%;
+    transition: all .4s ease-in-out;
+  }
+  .btn1 button:after{
+    background: #78c7d2;
+    transform: translate(-98%, -25%) rotate(45deg);
+  }
+  .btn2 button:after{
+    background: #78c7d2;
+    transform: translate(-9%, -25%) rotate(45deg);
+  }
+  .btn1:hover button:after{
+    transform: translate(-9%, -25%) rotate(45deg);
+  }
+  .btn2:hover button:after{
+    transform: translate(-98%, -25%) rotate(45deg);
+  }
+  button span a{
+
+    position: relative;
+    z-index: 1;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+  }
+  button span a:hover{
+
+    color: black;
+    font-weight: 700;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.6rem;
+  }
+  .btn2 span a{
+      
+    position: relative;
+    z-index: 1;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 700;
+  }
+  .btn2 span a:hover{
+
+    color: white;
+    font-weight: 700;
+  }
+  /*End Framework*/
+  
+  
+  
+  
+  
+  /*==========================================================
+      Header Start
+  ============================================================*/
+
+  .h1-style{
+
+    text-align: center;
+    color: rgb(255, 196, 0);
+    text-shadow: .2rem .3rem #030303;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: .4rem;
+    font-family: 'Metal Mania', cursive;
+    margin-top: 5rem;
+    transition: all .2s ease-in-out;
+  }
+  .h1-style:hover{
+
+    color: #030303;
+    text-shadow: .2rem .3rem rgb(255, 196, 0);
+    cursor: pointer;
+  }
+  hr{
+
+    height: .4rem;
+    background: #222;
+    align-items: center;
+    margin-left: 55rem;
+    margin-right: 55rem;
+    margin-top: 1rem;
+    box-shadow: .1rem .1rem .3rem rgb(255, 196, 0);
+  }
+  section .box{
+
+    width: 80%;
+    margin-left: 11rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4.5rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    background: rgba(245, 234, 215, 0.616);
+    border: none;
+    border-radius: .5rem;
+    box-shadow: .3rem .6rem 1.1rem #78c7d2;
+    border-left: 1rem solid  rgb(255, 196, 0);
+  }
+  section .box-two{
+
+    width: 80%;
+    margin-left: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4.5rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    background: rgba(245, 234, 215, 0.616);
+    border: none;
+    border-radius: .5rem;
+    box-shadow: .3rem .6rem 1.1rem #78c7d2;
+    border-left: 1rem solid orangered;
+  }
+  .hadeing-two{
+
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: .1rem;
+  }
+  .hadeing-two-title{
+
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: .6rem;
+    color: orangered;
+    font-family: 'Sriracha', cursive;
+    letter-spacing: .1rem;
+  }
+  #bg-three{
+
+    background-image: url("/images/background/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top 11rem;
+  }
+  .footer-style{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 4rem;
+
+  }
